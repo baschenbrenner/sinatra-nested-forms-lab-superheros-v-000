@@ -1,0 +1,2 @@
+class Superheroe
+end
