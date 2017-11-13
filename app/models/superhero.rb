@@ -1,4 +1,4 @@
 class Superhero < ActiveRecord::Base
-belongs to Team
+belongs_to :team
 
 end
