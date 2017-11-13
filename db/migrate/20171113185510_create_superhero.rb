@@ -5,7 +5,7 @@ class CreateSuperhero < ActiveRecord::Migration[5.1]
     create_table :superheroes do |t|
       t.string :name
       t.string :power
-      t.string :bio
+      t.text :bio
       t.team_id :integer
     end
 
