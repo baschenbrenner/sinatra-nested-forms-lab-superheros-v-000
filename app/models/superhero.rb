@@ -1,2 +1,3 @@
-class Superhero
+class Superhero < ActiveRecord::Base
+  
 end
