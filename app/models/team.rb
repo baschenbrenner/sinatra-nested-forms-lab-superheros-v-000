@@ -1,5 +1,5 @@
 class Team < ActiveRecord::Base
-has_many :Superheroes
+has_many :superheroes
 
 
 end
